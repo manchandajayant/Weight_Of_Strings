@@ -1,4 +1,4 @@
-
+//Find weight of srings if alphabets in order of their sequence where there sequence number was equal to their weight
 
 
 
@@ -18,7 +18,7 @@ function weightOfStringsByQuery(string, query) {
 
   //if the elements repeat
   //if they do then their addition should be equal to the query or one element itself is equal to the query
-
+  
   for (let v of Object.keys(stringObject)) {
     if (
       alphabetWeightObject.hasOwnProperty(v) &&
