@@ -36,3 +36,5 @@ function weightOfStringsByQuery(string, query) {
     return "No";
   }
 }
+
+console.log(weightOfStringsByQuery("abccddde", 12));
